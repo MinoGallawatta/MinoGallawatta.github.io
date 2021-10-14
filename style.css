@@ -1,0 +1,63 @@
+:root {
+  --primary: #33235a;
+  --primary-600: #1d103d;
+  --primary-font: "poppins";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-button {
+  margin-left: 5px !important;
+}
+
+.btn-primary {
+  display: none;
+  background-color: var(--primary);
+  margin: 0 auto;
+}
+.btn-primary:hover {
+  background-color: var(--primary-600);
+}
+.btn.btn-primary:active {
+  border: none;
+  background-color: none;
+  color: red;
+}
+
+.btn.btn-primary.focus,
+.btn.btn-primary:focus {
+  color: #fff;
+  background-color: var(--primary);
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: none;
+}
+
+.btn.btn-primary.active,
+.btn.btn-primary:active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  outline: none;
+}
+.btn.btn-cta {
+  background-color: var(--primary);
+  color: white;
+}
+
+@media (min-width: 991.98px) {
+  .navbar-nav > li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-primary {
+    display: block;
+  }
+}
+
+nav .btn {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 14px;
+}
