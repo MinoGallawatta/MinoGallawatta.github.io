@@ -50,6 +50,9 @@
 .color-primary {
   color: var(--primary) !important;
 }
+.color-secondary {
+  color: #c7bce4;
+}
 .alt-font {
   font-family: var(--alt-font);
   font-weight: 200;
@@ -62,6 +65,10 @@
 }
 .text-sm {
   font-size: small;
+  letter-spacing: 0.7px;
+}
+.rounded-corners {
+  border-radius: 15px;
 }
 @media (min-width: 991.98px) {
   .navbar-nav > li {
