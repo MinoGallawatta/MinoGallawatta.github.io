@@ -1,7 +1,7 @@
 :root {
   --primary: #33235a;
   --primary-600: #1d103d;
-  --primary-font: "poppins";
+  --primary-font: "poppins", sans-serif;
   --alt-font: "Merriweather", serif;
 }
 
