@@ -12,7 +12,7 @@
 button {
   transition: 250ms ease-in-out;
 }
-button:hover {
+btn-cta:hover {
   background-color: #1d103d !important;
 }
 .header-button {
