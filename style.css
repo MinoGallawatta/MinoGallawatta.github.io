@@ -90,7 +90,7 @@ btn-cta:hover {
   border-radius: 15px;
 }
 .carousel-container {
-  width: 67%;
+  width: 100%;
 }
 .gallery {
   width: 100%;
@@ -105,6 +105,9 @@ btn-cta:hover {
   }
   .btn-nav {
     display: flex;
+  }
+  .carousel-container {
+    width: 67%;
   }
 }
 
