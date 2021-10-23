@@ -50,6 +50,9 @@ btn-cta:hover {
   outline: none;
   box-shadow: none;
 }
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
 
 .btn.btn-primary.active,
 .btn.btn-primary:active {
