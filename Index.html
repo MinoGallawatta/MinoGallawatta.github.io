@@ -1,236 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diamond Floor Plans</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/regular.css" integrity="sha384-e7wK18mMVsIpE/BDLrCQ99c7gROAxr9czDzslePcAHgCLGCRidxq1mrNCLVF2oaj" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/brands.css" integrity="sha384-S5yUroXKhsCryF2hYGm7i8RQ/ThL96qmmWD+lF5AZTdOdsxChQktVW+cKP/s4eav" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-<link rel="icon" href="logo.png">
-
-</head>
-<body  >   
-    <div  class="container mt-2 ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="no-deco" href="#contact"><button class="btn btn-cta px-3 py-2 btn-nav me-md-2">Contact Us </button></a>
-                  </li>
-                </ul>
-                
-              </div>
-            </div>
-          </nav>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+      integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/regular.css"
+      integrity="sha384-e7wK18mMVsIpE/BDLrCQ99c7gROAxr9czDzslePcAHgCLGCRidxq1mrNCLVF2oaj"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/brands.css"
+      integrity="sha384-S5yUroXKhsCryF2hYGm7i8RQ/ThL96qmmWD+lF5AZTdOdsxChQktVW+cKP/s4eav"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="logo.png" />
+  </head>
+  <body>
+    <div class="container mt-2">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="w-50" src="logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="no-deco" href="#contact"
+                  ><button class="btn btn-cta px-3 py-2 btn-nav me-md-2">
+                    Contact Us
+                  </button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-   
-<div class="hero container col-xxl-8 px-4 py-3"> <!--Hero section-->
-                <div class=" row flex-lg-row-reverse align-items-center g-5 py-5">
-                  <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="hero-image.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-                  </div>
-                  <div class=" col-lg-6">
-                    <h2 class="display-4 fw-normal mb-3 alt-font color-primary">Get your plans from the best in the business</h2>
-                    <p class="fw-light">We offer world class solutions for a spectrum of development needs, that are tailor made to fit your specific need
-                    </p>
-         
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
-                      <a class="no-deco" href="#contact"><button type="button" class="btn btn-cta px-4 me-md-2">Let's Talk </button></a>
-                    </div>
-                  </div>
-                </div>
-       </div>
-    
-       <div id="services" class="section-reveal bg-purple"> <!--Services Section Floor plan-->
-         <div class="container col-xxl-8 px-4 py-2">
-               <div class=" row flex-lg-row-reverse align-items-center g-5 py-5">
-                 <div class="slow-reveal  col-10 col-sm-8 col-lg-6">
-                   <img src="floorplan.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="500" loading="lazy">
-                 </div>
-                 <div class="slower-reveal col-lg-6">
-                  <p class="  alt-font sub-header-alt">OUR SERVICES</p> 
-                  <h2 class="fw-normal mb-3 alt-font text-white">Top of the line <br/>floorplan development</h2>
-                   <p class="text-white fw-light color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium risus consequat gravida ultrices nisi mi, ipsum. Odio risus euismod sed quis velit amet id tortor, mattis.
-                   </p>
-                   <a href="gallery.html" class="link-hover text-white">See more ></a>
-                 </div>
-               </div>
-            </div>
-         </div>
 
-  
-          <div class="slower-reveal container col-xxl-8 px-4 py-2">
-                <div class="row flex-lg-row align-items-center g-5 py-5">
-                  <div class="col-10 col-sm-8 col-lg-6 ">
-                    <img src="Engineering Drawings.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300"  loading="lazy">
-                  </div>
-                  <div class="col-lg-6">
-                   <p class="color-primary alt-font sub-header-alt ">OUR SERVICES</p> 
-                   <h2 class="fw-normal mb-3 alt-font ">Super Intricate<br/> Engineering Drawings</h2>
-                    <p class="fw-normal text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium risus consequat gravida ultrices nisi mi, ipsum. Odio risus euismod sed quis velit amet id tortor, mattis.
-                    </p>
-                    <a href="gallery.html" class="link-hover color-primary">See more ></a>
-                  </div>
-                </div>
-             </div>
+    <div class="hero container col-xxl-8 px-4 py-3">
+      <!--Hero section-->
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="hero-image.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-4 fw-normal mb-3 alt-font color-primary">
+            Get your plans from the best in the business
+          </h2>
+          <p class="fw-light">
+            We offer world class solutions for a spectrum of development needs,
+            that are tailor made to fit your specific need
+          </p>
 
-             <div class=" container col-xxl-8 px-4 py-5">
-              <div class="slow-reveal row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                  <img src="image-retouching.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                 <p class="color-primary alt-font sub-header-alt ">OUR SERVICES</p> 
-                 <h2 class="fw-normal mb-3 alt-font ">Detail Oriented<br/>Image Retouching</h2>
-                  <p class="fw-normal text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium risus consequat gravida ultrices nisi mi, ipsum. Odio risus euismod sed quis velit amet id tortor, mattis.
-                  </p>
-                  <a href="gallery.html" class="link-hover color-primary">See more ></a>
-                </div>
-              </div>
-           </div>
-           
-           <div class="slow-reveal container col-xxl-8 px-4 py-2">
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="data-entry.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-               <p class="color-primary alt-font sub-header-alt ">OUR SERVICES</p> 
-               <h2 class="fw-normal mb-3 alt-font ">Dedicated<br>Data Entry Services</h2>
-                <p class="fw-normal text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium risus consequat gravida ultrices nisi mi, ipsum. Odio risus euismod sed quis velit amet id tortor, mattis.
-                </p>
-                <a href="gallery.html" class="link-hover color-primary">See more ></a>
-              </div>
-            </div>
-         </div>
-        
-         <div class="container carousel-container mb-5 mt-3 slower-reveal"> <!--Carasoul-->    <hr>
-          <div id="carouselExampleControls" class="carousel  carousel-dark slide" data-bs-ride="carousel">  
-              <div class="carousel-inner ">
-                <div class="carousel-item active ">
-                  <img src="gallery-images\1.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="gallery-images\2.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="gallery-images\3.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="gallery-images\4.png" class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-         
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-4">
+            <a class="no-deco" href="#contact"
+              ><button type="button" class="btn btn-cta px-4 me-md-2">
+                Let's Talk
+              </button></a
+            >
+          </div>
+        </div>
       </div>
-        
+    </div>
 
-         <div id="contact" class="slower-reveal container col-xxl-8 px-4 py-2 bg-purple text-white rounded-corners">
-          <div class="row flex-lg-row align-items-center g-5 py-2 px-4 ">
-              <div class="col-lg-6">
-               <p class="color-primary alt-font sub-header-alt ">CONTACT US</p>
-               <h2 class="fw-normal mb-3 alt-font ">So you have a project in mind?</h2>
-                <p class="fw-normal text-sm color-secondary">If you want a renovned player in the industry with your project, do not hesitate to reach out. Let’s meet for a cup of coffee or, simply drop us an email and we will get back to you.
-                </p>
-              
-                <div class="contact py-2 text-white">
-                  <div><i class="fas fa-phone-alt color-secondary h5"></i> <p class="text-sm d-inline "> +94 000 0000</p></div>
-                  <div><i class="fas fa-envelope color-secondary h5"></i> <p class="text-sm d-inline "> email@yourmail.com</p></div>
-                  <div><i class="fab fa-skype color-secondary h5"></i> <p class="text-sm d-inline "> @DiamondFloorPlan</p></div>
-                  <div><i class="fas fa-map-marker-alt color-secondary h5"></i> <p class="text-sm d-inline "> 1/3, Baker Street, London</p></div>
-                </div>
-              
-                <div class="socials py-5 " style="font-size: 3rem" >
-                  <a href=""><i class="contact-icons fab fa-facebook-square color-secondary "></i></a>
-                  <a href=""><i class="contact-icons fab fa-instagram-square color-secondary"></i></a>
-                  <a href=""><i class="contact-icons fab fa-twitter-square color-secondary "></i></a>
-                </div>
+    <div id="services" class="section-reveal bg-purple">
+      <!--Services Section Floor plan-->
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="slow-reveal col-10 col-sm-8 col-lg-6">
+            <img
+              src="floorplan.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="400"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="slower-reveal col-lg-6">
+            <p class="alt-font sub-header-alt">OUR SERVICES</p>
+            <h2 class="fw-normal mb-3 alt-font text-white">
+              Top of the line <br />floorplan development
+            </h2>
+            <p class="text-white fw-light color-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
+              risus consequat gravida ultrices nisi mi, ipsum. Odio risus
+              euismod sed quis velit amet id tortor, mattis.
+            </p>
+            <a href="gallery.html" class="link-hover text-white">See more ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slower-reveal container col-xxl-8 px-4 py-2">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="Engineering Drawings.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="300"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <p class="color-primary alt-font sub-header-alt">OUR SERVICES</p>
+          <h2 class="fw-normal mb-3 alt-font">
+            Super Intricate<br />
+            Engineering Drawings
+          </h2>
+          <p class="fw-normal text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
+            risus consequat gravida ultrices nisi mi, ipsum. Odio risus euismod
+            sed quis velit amet id tortor, mattis.
+          </p>
+          <a href="gallery.html" class="link-hover color-primary">See more ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div
+        class="slow-reveal row flex-lg-row-reverse align-items-center g-5 py-5"
+      >
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="image-retouching.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="600"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <p class="color-primary alt-font sub-header-alt">OUR SERVICES</p>
+          <h2 class="fw-normal mb-3 alt-font">
+            Detail Oriented<br />Image Retouching
+          </h2>
+          <p class="fw-normal text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
+            risus consequat gravida ultrices nisi mi, ipsum. Odio risus euismod
+            sed quis velit amet id tortor, mattis.
+          </p>
+          <a href="gallery.html" class="link-hover color-primary">See more ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slow-reveal container col-xxl-8 px-4 py-2">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="data-entry.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="400"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <p class="color-primary alt-font sub-header-alt">OUR SERVICES</p>
+          <h2 class="fw-normal mb-3 alt-font">
+            Dedicated<br />Data Entry Services
+          </h2>
+          <p class="fw-normal text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
+            risus consequat gravida ultrices nisi mi, ipsum. Odio risus euismod
+            sed quis velit amet id tortor, mattis.
+          </p>
+          <a href="gallery.html" class="link-hover color-primary">See more ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container carousel-container mb-5 mt-3 slower-reveal">
+      <!--Carasoul-->
+      <hr />
+      <div
+        id="carouselExampleControls"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="gallery-images\1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="gallery-images\2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="gallery-images\3.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="gallery-images\4.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="contact"
+      class="
+        slower-reveal
+        container
+        col-xxl-8
+        px-4
+        py-2
+        bg-purple
+        text-white
+        rounded-corners
+      "
+    >
+      <div class="row flex-lg-row align-items-center g-5 py-2 px-4">
+        <div class="col-lg-6">
+          <p class="color-primary alt-font sub-header-alt">CONTACT US</p>
+          <h2 class="fw-normal mb-3 alt-font">
+            So you have a project in mind?
+          </h2>
+          <p class="fw-normal text-sm color-secondary">
+            If you want a renovned player in the industry with your project, do
+            not hesitate to reach out. Let’s meet for a cup of coffee or, simply
+            drop us an email and we will get back to you.
+          </p>
+
+          <div class="contact py-2 text-white">
+            <div>
+              <i class="fas fa-phone-alt color-secondary h5"></i>
+              <p class="text-sm d-inline">+94 000 0000</p>
+            </div>
+            <div>
+              <i class="fas fa-envelope color-secondary h5"></i>
+              <p class="text-sm d-inline">email@yourmail.com</p>
+            </div>
+            <div>
+              <i class="fab fa-skype color-secondary h5"></i>
+              <p class="text-sm d-inline">@DiamondFloorPlan</p>
+            </div>
+            <div>
+              <i class="fas fa-map-marker-alt color-secondary h5"></i>
+              <p class="text-sm d-inline">1/3, Baker Street, London</p>
             </div>
           </div>
-       </div>
- 
-  <div class="container">
-    <footer class=" d-flex flex-wrap justify-content-between align-items-center m-3 py-4 border-top">
-      <p class="col-md-4 mb-0 text-muted">&copy; 2021 Diamond Floor Plans, ltd</p>
-  
-      <a href="https://twentyone.media" target="_blank" class="col-md-4 d-flex justify-content-center align-items-end text-decoration-underline link-dark text-muted text-sm">
-        Developed by Twenty One Media Solutions 
-      </a>
-  
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted ">Home</a></li>
-        <li class="nav-item"><a href="#services" class="nav-link px-2 text-muted">Services</a></li>
-        <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
-      </ul>
-    </footer>
-  </div>
- 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  
-  ScrollReveal().reveal('.hero', { 
-    delay: 800,
-    origin: 'top',
-    distance: '6px'
-  });
 
-ScrollReveal().reveal('.navbar', { 
-    delay: 600,
-    origin: 'top',
-    distance: '6px'
-  });
-  
-  ScrollReveal().reveal('.section-reveal', { 
-    delay: 200,
-    origin: 'bottom',
-    distance: '6px'
-  });
-  
-  ScrollReveal().reveal('.slow-reveal', { 
-    delay: 700,
-    origin: 'bottom',
-    distance: '6px'
-  });
-  
-  ScrollReveal().reveal('.slower-reveal', { 
-    delay: 400,
-    origin: 'bottom',
-    distance: '6px'
-  });
+          <div class="socials py-5" style="font-size: 3rem">
+            <a href=""
+              ><i
+                class="contact-icons fab fa-facebook-square color-secondary"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="contact-icons fab fa-instagram-square color-secondary"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="contact-icons fab fa-twitter-square color-secondary"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</script>
-</body>
+    <div class="container">
+      <footer
+        class="
+          d-flex
+          flex-wrap
+          justify-content-between
+          align-items-center
+          m-3
+          py-4
+          border-top
+        "
+      >
+        <p class="col-md-4 mb-0 text-muted">
+          &copy; 2021 Diamond Floor Plans, ltd
+        </p>
+
+        <a
+          href="https://twentyone.media"
+          target="_blank"
+          class="
+            col-md-4
+            d-flex
+            justify-content-center
+            align-items-end
+            text-decoration-underline
+            link-dark
+            text-muted text-sm
+          "
+        >
+          Developed by Twenty One Media Solutions
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link px-2 text-muted">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal(".hero", {
+        delay: 800,
+        origin: "top",
+        distance: "6px",
+      });
+
+      ScrollReveal().reveal(".navbar", {
+        delay: 600,
+        origin: "top",
+        distance: "6px",
+      });
+
+      ScrollReveal().reveal(".section-reveal", {
+        delay: 200,
+        origin: "bottom",
+        distance: "6px",
+      });
+
+      ScrollReveal().reveal(".slow-reveal", {
+        delay: 700,
+        origin: "bottom",
+        distance: "6px",
+      });
+
+      ScrollReveal().reveal(".slower-reveal", {
+        delay: 400,
+        origin: "bottom",
+        distance: "6px",
+      });
+    </script>
+  </body>
 </html>
